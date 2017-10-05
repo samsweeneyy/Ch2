@@ -11,12 +11,13 @@ public class Paint
         {
             final int COVERAGE = 350;  //paint covers 350 sq ft/gal
             //declare integers length, width, and height;
-            length = 15
-            width = 11
-            height = 8
+            int length = 15;
+            int width = 11;
+            int height = 8;
             //declare double totalSqFt;
+            double totalSqFt = length * width * height;
             //declare double paintNeeded;
- 
+            double paintNeeded = 5 * totalSqFt;
             //Declare and initialize the length of the room
  
             //Declare and initialize the width of the room
@@ -25,7 +26,7 @@ public class Paint
  
             //Compute the total square feet to be painted--think
             //about the dimensions of each wall
- 
+            
             //Compute the amount of paint needed
  
             //Print the length, width, and height of the room and the
